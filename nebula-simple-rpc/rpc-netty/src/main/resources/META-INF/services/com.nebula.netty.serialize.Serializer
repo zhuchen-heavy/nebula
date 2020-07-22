@@ -1,0 +1,5 @@
+com.nebula.netty.serialize.impl.RpcRequestSerializer
+com.nebula.netty.serialize.impl.MetadataSerializer
+com.nebula.netty.serialize.impl.StringSerializer
+com.nebula.netty.serialize.impl.ObjectSerializer
+com.nebula.netty.serialize.impl.ObjectArraysSerializer

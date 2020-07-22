@@ -16,6 +16,7 @@
         <module>nebula-lambda</module>
         <module>nebula-web</module>
         <module>nebula-data-structure</module>
+        <module>nebula-simple-rpc</module>
     </modules>
 
 </project>
