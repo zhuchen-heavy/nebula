@@ -18,6 +18,7 @@
         <module>nebula-data-structure</module>
         <module>nebula-simple-rpc</module>
         <module>nebula-juc</module>
+        <module>nebula-spring</module>
     </modules>
 
 </project>
