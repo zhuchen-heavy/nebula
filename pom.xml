@@ -10,15 +10,16 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>nebula-utils</module>
+        <module>nebula-data-structure</module>
         <module>nebula-design</module>
         <module>nebula-encrypt-algorithm</module>
-        <module>nebula-lambda</module>
-        <module>nebula-web</module>
-        <module>nebula-data-structure</module>
-        <module>nebula-simple-rpc</module>
+        <module>nebula-interview</module>
         <module>nebula-juc</module>
+        <module>nebula-lambda</module>
+        <module>nebula-simple-rpc</module>
         <module>nebula-spring</module>
+        <module>nebula-utils</module>
+        <module>nebula-web</module>
     </modules>
 
 </project>
