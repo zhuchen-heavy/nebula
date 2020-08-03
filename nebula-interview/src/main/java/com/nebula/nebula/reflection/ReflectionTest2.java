@@ -1,28 +1,27 @@
-package com.nebula.nebula;
-
-import java.security.ProtectionDomain;
+package com.nebula.nebula.reflection;
 
 /**
  * <h>
  * 得到class类的方式
  * </h>
  *
- * @version 1.0
  * @author zhu.chen
+ * @version 1.0
  * @date 2020/8/2
  */
-public class Test {
+public class ReflectionTest2 {
+
     public static void main(String[] args) throws ClassNotFoundException {
         /**
          * 1：得到Class的方式
          */
         // 类.class
-        Class clazz1 = Test.class;
+        Class clazz1 = ReflectionTest2.class;
         // 对象.getClass()
-        Test test = new Test();
-        Class clazz2 = test.getClass();
+        ReflectionTest2 reflectionTest2 = new ReflectionTest2();
+        Class clazz2 = reflectionTest2.getClass();
         // Class.forName()
-        Class clazz3 = Class.forName("com.nebula.nebula.Test");
+        Class clazz3 = Class.forName("com.nebula.nebula.reflection.ReflectionTest2");
         System.out.println(clazz1);
         System.out.println(clazz2);
         System.out.println(clazz3);
