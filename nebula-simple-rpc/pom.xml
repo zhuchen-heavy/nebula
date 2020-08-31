@@ -12,6 +12,7 @@
     <groupId>com.nebula</groupId>
     <artifactId>nebula-simple-rpc</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>client</module>
